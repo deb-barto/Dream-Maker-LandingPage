@@ -5,3 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,400&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+@media(max-width:1016px){
+    .borda1 {
+    margin: 50px;
+    padding: 20px
+    }
+}
