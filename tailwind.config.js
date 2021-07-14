@@ -5,11 +5,14 @@ module.exports = {
     extend: {},
     colors:{
       "bookmark-roxo":"#5267DF",
-      "bookmark-red":"#FF0F4F",
+      "bookmark-red":"#FF5001",
+      "bookmark-y":"#EDED32",
       "white":"#FFFFFF",
+      "black":"#000000",
     },
     fontFamily:{
-      Roboto: ["Roboto, sans-serif"]
+      Roboto: ["Roboto, sans-serif"],
+      Bowlby:["Bowlby One SC, cursive;"]
     },
     container: {
       center: true,
