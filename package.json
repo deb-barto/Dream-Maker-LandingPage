@@ -1,0 +1,23 @@
+{
+  "name": "LandingPage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+  "build:tailwinds": "tailwind build src/estilo.css -o public/estilo.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hana-bananaa/Dream-Maker-LandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hana-bananaa/Dream-Maker-LandingPage/issues"
+  },
+  "homepage": "https://github.com/hana-bananaa/Dream-Maker-LandingPage#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.4"
+  }
+}
