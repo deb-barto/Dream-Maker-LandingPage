@@ -4,7 +4,7 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-  "build:tailwinds": "tailwind build src/estilo.css -o public/estilo.css"
+  "build:css": "postcss src/stlye.css -o src/prod.css"
   },
   "repository": {
     "type": "git",
