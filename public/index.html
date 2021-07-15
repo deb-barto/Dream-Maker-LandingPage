@@ -11,16 +11,17 @@
         <link rel="stylesheet" href="../src/estilo.css">
     </head>
     <body class= "font-Roboto" style="background-color: lemonchiffon;">
+
         <!--header -->
         <header>
             <nav class=" bg-bookmark-bg shadow-sm">
                 <div class="container flex items-center py-4 mt-4 sm:mt-5">
-                    <div class="logo cursor-pointer">
-                        <img src="assests/logo dream maker.svg" alt="logo" style="width: 220px;">
+                    <div class="logo cursor-pointer transform hover:rotate-6 transition ease-out duration-1000">
+                       <a href="#"> <img src="assests/logo dream maker.svg" alt="logo" style="width: 220px;"> </a>
                     </div>
                         <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-roxo uppercase text-xs" style="font-family:inherit">
                             <li class="cursor-pointer hover:text-bookmark-red"> <a href="#Sonhos"> Sonhos </a></li>
-                            <li class="cursor-pointer hover:text-bookmark-red"> <a href=""> Reviews</a></li>
+                            <li class="cursor-pointer hover:text-bookmark-red"> <a href="#reviews"> Reviews</a></li>
                             <li class="cursor-pointer hover:text-bookmark-red"> <a href="#faq">duvidas</a></li>
                             <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000"> 
                             <a href="">fale conosco</a>
@@ -31,7 +32,7 @@
                     <div class="flex sm:hidden flex-1 justify-end" style="color:blueviolet">
                         <button class="mobile-menu-button"> <i class=" text-2xl fas fa-bars"></i></button>
                     </div>
-            </div>
+                </div>
                  <!-- mobile menu -->
                     <div class="mobile-menu hidden md:hidden flex flex-col lg:flex-row items-center gap-0.1 mt-1 lg:mt-50 text-bookmark-roxo uppercase text-xs shadow-inner" style="font-family:inherit"">
                     <a href="#Sonhos" class="block py-2 px-4 text-sm hover:text-bookmark-red">Sonhos</a>
@@ -42,6 +43,7 @@
                     </div>
             </nav>
         </header>
+
         <!--hero-->
         <section class="realtive">
             <div class="flex flex-col-reverse lg:flex-row items-center gap-0.1 mt-1 lg:mt-50" style="background-image:url('assests/background.png'); width: 100%; height:25%;">
@@ -54,12 +56,13 @@
                             <a href="#contato"><button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000"" style="margin:20px">Fale Conosco</button></a>
                         </div>
                     </div>
-                    <div class="flex flex-1 flex-col items-center py-5">
-                        <img src="assests/reference-2.png" alt="relogio"style="width:50%;">
+                    <div class="flex flex-1 flex-col items-center py-5 transform hover:rotate-6 transition ease-out duration-1000">
+                        <img src="assests/reference-2.png" alt="relogio"style="width:75%;">
                     </div>
                    
             </div>
         </section>
+
         <!--hero2-->
         <section class="borda1" style="margin:10px" id="Sonhos">
             <div class="container" style="border:40px solid black; padding: 20px; border-image:url(assests/borda.svg); border-image-slice:200; margin-top: 10px;width: 100%; height:25%;">
@@ -68,6 +71,7 @@
                         <img src="assests/reference3.svg" alt="relogio"style="width:650px;">
                     </div>
                 </div>    
+
                 <div class="flex flex-col-reverse lg:flex-row items-center gap-0.1 mt-1 lg:mt-50">
 
                     <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-110">
@@ -92,14 +96,30 @@
 
 
 
+     <!--reviews-->
+        <section class= "flex items-center flex-col " style=" width: 100%; height:auto;background-image: url(assests/bg4.svg) ; background-color:#EDED32; background-size:100%; background-repeat:repeat-y" id="reviews">
+            <img src="assests/rv.svg" alt="relogio"style="width:500px;">
+            <div class="container flex flex-col-reverse lg:flex-row items-center gap-0.1 mt-1 lg:mt-50">
+                
+                <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-105">
+                    <img src="assests/p1.svg" alt="relogio"style="width:250px;">
+                    <div class=" items-center shadow-xl" style="padding:20px ;width:235px; height:auto; background-color: lemonchiffon;"> <h1>Vestibulum commodo, dui id malesuada euismod, libero augue ornare ante, sit amet dignissim est tortor vel ligula. Nunc tincidunt tellus est, at tincidunt ex semper a. Donec maximus, arcu sit amet maximus viverra, nisi arcu tincidunt nunc, eu ultricies libero nisi in quam. </h1></div>
+                </div>
 
+                <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-105">
+                    <img src="assests/p2.svg" alt="relogio"style="width:250px">
+                    <div class=" items-center shadow-xl" style="padding:20px ;width:235px; height:auto; background-color: lemonchiffon;"> <h1>Vestibulum commodo, dui id malesuada euismod, libero augue ornare ante, sit amet dignissim est tortor vel ligula. Nunc tincidunt tellus est, at tincidunt ex semper a. Donec maximus, arcu sit amet maximus viverra, nisi arcu tincidunt nunc, eu ultricies libero nisi in quam. </h1></div>
+                </div>
 
+                <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-105">
+                    <img src="assests/p3.svg" alt="relogio"style="width:250px">
+                    <div class=" items-center shadow-xl" style="padding:20px ;width:235px; height:auto; background-color: lemonchiffon;"> <h1>Vestibulum commodo, dui id malesuada euismod, libero augue ornare ante, sit amet dignissim est tortor vel ligula. Nunc tincidunt tellus est, at tincidunt ex semper a. Donec maximus, arcu sit amet maximus viverra, nisi arcu tincidunt nunc, eu ultricies libero nisi in quam. </h1></div>
+                </div>
+            </div>
+        </section>
 
+    <!-- FAQ-->
 
-
-
-
-        <!-- FAQ-->
         <section class = "bg-bookmark-red py20" style="color: lemonchiffon" id="faq">
             <div class ="" style="" >
                 <!--headig-->
@@ -117,28 +137,33 @@
             
                     <div class=" container mt-10.5 space-y-4 flex flex-1 flex-col items-center" style="color: lemonchiffon; padding: 30px;">
                 
-                      <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
+                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
                         <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Como funciona o pagamento dos anos?</summary>
                         <p class="text-xs font-normal"style="margin-top: 10px;"> O pagamento é calculado pelo nivel de dificuldade para se conseguir a habilidade. Nos aceitamos apenas o tempo de vida restante que tem, quanto mais jovem você for, mais tempo poderá gastar. Atenção, deve tomar cuidado, pois se o seu destino é ter uma vida curta, talvez seu fim chegue antes da realização do desejo.</p>
-                
-                      </details>
+                    </details>
+
+                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
+                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Eu evelheço depois de pagar?</summary>
+                        <p class="text-xs font-normal"style="margin-top: 10px;"> O pagamento é feito com seu tempo de vida a partir do momento em que selamos o pacto, desse modo sim, tomamos parte da sua juventude. Caso você tenha 15 anos e compre um desejo com o preço de 15 anos, ao selar o pacto, automaticamente irá ter aparencia de um adulto de 30 anos.</p>
+                    
+                    </details>
                   
-                      <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
+                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
                         <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Posso pagar para ser imortal?</summary>
                         <p class="text-xs font-normal" style="margin-top: 10px;">Alguns clientes já desejaram isso, no entanto avisamos antes que o preço para conseguir esse desejo é em torno de 1096 anos, talvez você precise pedir ajuda para alguns amigos para realizar esse sonho.</p>
-                      </details>
+                    </details>
                   
-                      <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
+                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
                         
                         <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Posso pedir devolução dos meus anos, caso não goste do desejo?</summary>
                         <p class="text-xs font-normal"style="margin-top: 10px;">não.</p>
-                      </details>
+                    </details>
                   
-                      <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
+                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
                         <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Eu posso morrer caso esteja destinado a morrer cedo e o meu pedido expire o tempo de vida?</summary>
                         <p class="text-dark-grayish-blue text-xs font-normal"style="margin-top: 10px;">sim!</p>
                         
-                      </details>
+                    </details>
                       
                       <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
                         <summary class="flex justify-between items-center text-summary md:text-sm font-normal"> Oque vocês fazem com os anos?</summary>
@@ -157,14 +182,14 @@
                 <img src="assests/logo dream maker.svg" alt="logo" style="width: 220px;">
                 </div>
                 <ul class="hidden sm:flex flex-1 justify-end items-center gap-11 text-bookmark-roxo uppercase text-xs" style="padding:20px;">
-                    <li class="cursor-pointer hover:text-bookmark-red">
-                        <a href="https://github.com/hana-bananaa"><img src="https://image.flaticon.com/icons/png/512/733/733609.png" alt="git"style="width:30px"></a>
+                    <li class="cursor-pointer transform hover:scale-105">
+                        <a href="https://github.com/hana-bananaa" target="_blank"><img src="https://image.flaticon.com/icons/png/512/733/733609.png" alt="git"style="width:30px"></a>
                     </li>
-                    <li class="cursor-pointer">
-                       <a href="https://www.linkedin.com/in/debora-barto/"><img src="https://image.flaticon.com/icons/png/512/1384/1384014.png" alt="linkedin" style="width:30px"></a> 
+                    <li class="cursor-pointer transform hover:scale-105">
+                       <a href="https://www.linkedin.com/in/debora-barto/" target="_blank" ><img src="https://image.flaticon.com/icons/png/512/1384/1384014.png" alt="linkedin" style="width:30px"></a> 
                     </li>
-                    <li class="cursor-pointer">
-                        <a href="https://www.instagram.com/debra_barto/"><img src="https://image.flaticon.com/icons/png/512/1384/1384015.png" alt="insta"style="width:30px"></a>
+                    <li class="cursor-pointer transform hover:scale-105">
+                        <a href="https://www.instagram.com/debra_barto/" target="_blank" ><img src="https://image.flaticon.com/icons/png/512/1384/1384015.png" alt="insta"style="width:30px"></a>
                     </li>
                 <div class="flex sm:hidden flex-1 justify-end" style="color:blueviolet">
                     <i class=" text-2xl fas fa-bars"></i>
