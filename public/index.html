@@ -13,19 +13,33 @@
     <body class= "font-Roboto" style="background-color: lemonchiffon;">
         <!--header -->
         <header>
-            <nav class="container flex items-center py-4 mt-4 sm:mt-5">
-                <div class="logo cursor-pointer">
-            <img src="assests/logo dream maker.svg" alt="logo" style="width: 220px;">
-                </div>
-                <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-roxo uppercase text-xs" style="font-family:inherit">
-                    <li class="cursor-pointer hover:text-bookmark-red"> Sonhos</li>
-                    <li class="cursor-pointer hover:text-bookmark-red"> Reviews</li>
-                    <li class="cursor-pointer hover:text-bookmark-red"> duvidas</li>
-                    <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black"> fale conosco</button>
-                </ul>
-                <div class="flex sm:hidden flex-1 justify-end" style="color:blueviolet">
-                    <i class=" text-2xl fas fa-bars"></i>
-                </div>
+            <nav class=" bg-bookmark-bg shadow-sm">
+                <div class="container flex items-center py-4 mt-4 sm:mt-5">
+                    <div class="logo cursor-pointer">
+                        <img src="assests/logo dream maker.svg" alt="logo" style="width: 220px;">
+                    </div>
+                        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-roxo uppercase text-xs" style="font-family:inherit">
+                            <li class="cursor-pointer hover:text-bookmark-red"> <a href="#Sonhos"> Sonhos </a></li>
+                            <li class="cursor-pointer hover:text-bookmark-red"> <a href=""> Reviews</a></li>
+                            <li class="cursor-pointer hover:text-bookmark-red"> <a href="#faq">duvidas</a></li>
+                            <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000"> 
+                            <a href="">fale conosco</a>
+                            </button>
+                        </ul>
+
+                    <!-- mobile button goes here -->
+                    <div class="flex sm:hidden flex-1 justify-end" style="color:blueviolet">
+                        <button class="mobile-menu-button"> <i class=" text-2xl fas fa-bars"></i></button>
+                    </div>
+            </div>
+                 <!-- mobile menu -->
+                    <div class="mobile-menu hidden md:hidden flex flex-col lg:flex-row items-center gap-0.1 mt-1 lg:mt-50 text-bookmark-roxo uppercase text-xs shadow-inner" style="font-family:inherit"">
+                    <a href="#Sonhos" class="block py-2 px-4 text-sm hover:text-bookmark-red">Sonhos</a>
+                    <a href="#" class="block py-2 px-4 text-sm hover:text-bookmark-red">Reviews</a>
+                    <a href="#faq" class="block py-2 px-4 text-sm hover:text-bookmark-red">duvidas</a>
+                    <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000"> 
+                        <a href="">fale conosco</a>
+                    </div>
             </nav>
         </header>
         <!--hero-->
@@ -33,11 +47,11 @@
             <div class="flex flex-col-reverse lg:flex-row items-center gap-0.1 mt-1 lg:mt-50" style="background-image:url('assests/background.png'); width: 100%; height:25%;">
                 <!--content -->
                     <div class="flex flex-1 flex-col items-center">
-                        <div class="flex flex-1 flex-col items-center py-5">
+                        <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-110">
                             <img src="assests/reference 2.svg" alt="relogio"style="width:350px">
                         </div>
                         <div class="flex justify-center flex-wrap gap-6">
-                            <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black" style="margin:20px">Fale Conosco</button>
+                            <a href="#contato"><button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000"" style="margin:20px">Fale Conosco</button></a>
                         </div>
                     </div>
                     <div class="flex flex-1 flex-col items-center py-5">
@@ -47,29 +61,29 @@
             </div>
         </section>
         <!--hero2-->
-        <section class="borda1" style="margin:10px">
+        <section class="borda1" style="margin:10px" id="Sonhos">
             <div class="container" style="border:40px solid black; padding: 20px; border-image:url(assests/borda.svg); border-image-slice:200; margin-top: 10px;width: 100%; height:25%;">
                 <div class="chamada flex flex-1 flex-col items-center"> 
-                    <div class="flex flex-1 flex-col items-center py-1">
+                    <div class="flex flex-1 flex-col items-center py-1 ">
                         <img src="assests/reference3.svg" alt="relogio"style="width:650px;">
                     </div>
                 </div>    
                 <div class="flex flex-col-reverse lg:flex-row items-center gap-0.1 mt-1 lg:mt-50">
 
-                    <div class="flex flex-1 flex-col items-center py-5">
+                    <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-110">
                         <img src="assests/poder1.svg" alt="relogio"style="width:150px;">
 
                     </div>
 
-                    <div class="flex flex-1 flex-col items-center py-5">
+                    <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-110">
                         <img src="assests/poder2.svg" alt="relogio"style="width:150px">
                     </div>
 
-                    <div class="flex flex-1 flex-col items-center py-5">
+                    <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-110">
                         <img src="assests/poder3.svg" alt="relogio"style="width:150px">
                     </div>
 
-                    <div class="flex flex-1 flex-col items-center py-5">
+                    <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-110">
                         <img src="assests/poder4.svg" alt="relogio"style="width:150px">
                     </div>
                 </div>    
@@ -86,8 +100,8 @@
 
 
         <!-- FAQ-->
-        <section class = "bg-bookmark-red py20" style="color: lemonchiffon">
-            <div class ="container" >
+        <section class = "bg-bookmark-red py20" style="color: lemonchiffon" id="faq">
+            <div class ="" style="" >
                 <!--headig-->
                 <div class ="sm:w-3/4 lg:5/12 mx-auto px-2" style="padding:50px">
                     <h1 class="text-3xl text-center">
@@ -99,36 +113,36 @@
                 </div>
                 
                 <!-- faq itens-->
-                <section class = "bg-bookmark-red py4">
+                <section class = "bg-bookmark-red py4" style="background-image: url(assests/bg3.svg); background-repeat: no-repeat; background-attachment: fixed;">
             
                     <div class=" container mt-10.5 space-y-4 flex flex-1 flex-col items-center" style="color: lemonchiffon; padding: 30px;">
                 
                       <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal hover:text-soft-red">Como funciona o pagamento dos anos?</summary>
-                        <p class="text-xs font-normal">O pagamento é calculado pelo nivel de dificuldade para se conseguir a habilidade, você deve tomar cuidado, pois se o seu destino é ter uma vida curta, talvez seu fim chegue antes da realização do desejo.</p>
+                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Como funciona o pagamento dos anos?</summary>
+                        <p class="text-xs font-normal"style="margin-top: 10px;"> O pagamento é calculado pelo nivel de dificuldade para se conseguir a habilidade. Nos aceitamos apenas o tempo de vida restante que tem, quanto mais jovem você for, mais tempo poderá gastar. Atenção, deve tomar cuidado, pois se o seu destino é ter uma vida curta, talvez seu fim chegue antes da realização do desejo.</p>
                 
                       </details>
                   
                       <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal hover:text-soft-red">Posso pagar para ser imortal?</summary>
-                        <p class="text-xs font-normal">Alguns clientes já desejaram isso, no entanto avisamos antes que o preço para conseguir esse desejo é em torno de 1096 anos, talvez você precise pedir ajuda para alguns amigos para realizar esse sonho.</p>
+                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Posso pagar para ser imortal?</summary>
+                        <p class="text-xs font-normal" style="margin-top: 10px;">Alguns clientes já desejaram isso, no entanto avisamos antes que o preço para conseguir esse desejo é em torno de 1096 anos, talvez você precise pedir ajuda para alguns amigos para realizar esse sonho.</p>
                       </details>
                   
                       <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
                         
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal hover:text-soft-red">Posso pedir devolução dos meus anos, caso não goste do desejo?</summary>
-                        <p class="text-xs font-normal">não.</p>
+                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Posso pedir devolução dos meus anos, caso não goste do desejo?</summary>
+                        <p class="text-xs font-normal"style="margin-top: 10px;">não.</p>
                       </details>
                   
                       <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal text-very-dark-grayish-blue hover:text-soft-red">Eu posso morrer caso esteja destinado a morrer cedo e o meu pedido expire o tempo de vida?</summary>
-                        <p class="text-dark-grayish-blue text-xs font-normal">sim!</p>
+                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Eu posso morrer caso esteja destinado a morrer cedo e o meu pedido expire o tempo de vida?</summary>
+                        <p class="text-dark-grayish-blue text-xs font-normal"style="margin-top: 10px;">sim!</p>
                         
                       </details>
                       
                       <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal text-very-dark-grayish-blue hover:text-soft-red"> Oque vocês fazem com os anos?</summary>
-                        <p class="text-dark-grayish-blue text-xs font-normal">Nossa empresa já possui mais de 10 mil anos, já atendemos diversas pesssoas importantes para a humanidade. A garantia desse sucesso e vitalidade da empresa, vem dos nossos clientes.</p>
+                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal"> Oque vocês fazem com os anos?</summary>
+                        <p class="text-dark-grayish-blue text-xs font-normal"style="margin-top: 10px;">Nossa empresa já possui mais de 10 mil anos, já atendemos diversas pesssoas importantes para a humanidade. A garantia desse sucesso e vitalidade da empresa vem dos nossos preciosos clientes.</p>
                         
                       </details>
                 
@@ -144,19 +158,19 @@
                 </div>
                 <ul class="hidden sm:flex flex-1 justify-end items-center gap-11 text-bookmark-roxo uppercase text-xs" style="padding:20px;">
                     <li class="cursor-pointer hover:text-bookmark-red">
-                        <img src="https://image.flaticon.com/icons/png/512/733/733609.png" alt="git"style="width:30px">
+                        <a href="https://github.com/hana-bananaa"><img src="https://image.flaticon.com/icons/png/512/733/733609.png" alt="git"style="width:30px"></a>
                     </li>
                     <li class="cursor-pointer">
-                        <img src="https://image.flaticon.com/icons/png/512/1384/1384014.png" alt="linkedin" style="width:30px">
+                       <a href="https://www.linkedin.com/in/debora-barto/"><img src="https://image.flaticon.com/icons/png/512/1384/1384014.png" alt="linkedin" style="width:30px"></a> 
                     </li>
                     <li class="cursor-pointer">
-                        <img src="https://image.flaticon.com/icons/png/512/1384/1384015.png" alt="insta"style="width:30px">
+                        <a href="https://www.instagram.com/debra_barto/"><img src="https://image.flaticon.com/icons/png/512/1384/1384015.png" alt="insta"style="width:30px"></a>
                     </li>
                 <div class="flex sm:hidden flex-1 justify-end" style="color:blueviolet">
                     <i class=" text-2xl fas fa-bars"></i>
                 </div>
             </nav>
         </section>
-        <script src="./script.js" async defer></script>
+        <script src="script.js" async defer></script>
     </body>
 </html>

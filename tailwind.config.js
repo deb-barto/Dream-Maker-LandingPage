@@ -7,6 +7,7 @@ module.exports = {
       "bookmark-roxo":"#5267DF",
       "bookmark-red":"#FF5001",
       "bookmark-y":"#EDED32",
+      "bookmark-bg":"lemonchiffon",
       "white":"#FFFFFF",
       "black":"#000000",
     },
