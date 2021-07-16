@@ -2,7 +2,11 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'eye': "url('./public/assests/bg4.svg')",
+    })
+    },
     colors:{
       "bookmark-roxo":"#5267DF",
       "bookmark-red":"#FF5001",
@@ -26,7 +30,8 @@ module.exports = {
     },
   },
   variants: {
+    scrollBehavior: ['motion-safe', 'motion-reduce', 'responsive'],
     extend: {},
   },
-  plugins: [],
+  plugins: []
 }

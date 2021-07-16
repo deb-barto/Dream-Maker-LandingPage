@@ -13476,6 +13476,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-eye {
+  background-image: url('./public/assests/bg4.svg');
+}
+
 .from-bookmark-roxo {
   --tw-gradient-from: #5267DF;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(82, 103, 223, 0));
@@ -31037,6 +31041,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-eye {
+    background-image: url('./public/assests/bg4.svg');
+  }
+
   .sm\:from-bookmark-roxo {
     --tw-gradient-from: #5267DF;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(82, 103, 223, 0));
@@ -48496,6 +48504,10 @@ video {
 
   .md\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .md\:bg-eye {
+    background-image: url('./public/assests/bg4.svg');
   }
 
   .md\:from-bookmark-roxo {
@@ -65959,6 +65971,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-eye {
+    background-image: url('./public/assests/bg4.svg');
+  }
+
   .lg\:from-bookmark-roxo {
     --tw-gradient-from: #5267DF;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(82, 103, 223, 0));
@@ -83420,6 +83436,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-eye {
+    background-image: url('./public/assests/bg4.svg');
+  }
+
   .xl\:from-bookmark-roxo {
     --tw-gradient-from: #5267DF;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(82, 103, 223, 0));
@@ -100879,6 +100899,10 @@ video {
 
   .\32xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
+  }
+
+  .\32xl\:bg-eye {
+    background-image: url('./public/assests/bg4.svg');
   }
 
   .\32xl\:from-bookmark-roxo {
