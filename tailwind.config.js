@@ -8,10 +8,11 @@ module.exports = {
     })
     },
     colors:{
-      "bookmark-roxo":"#5267DF",
+      "bookmark-roxo":"#3e00a8",
       "bookmark-red":"#FF5001",
       "bookmark-y":"#EDED32",
       "bookmark-bg":"lemonchiffon",
+      "bookmark-bc":"#a795c7",
       "white":"#FFFFFF",
       "black":"#000000",
     },
@@ -33,5 +34,7 @@ module.exports = {
     scrollBehavior: ['motion-safe', 'motion-reduce', 'responsive'],
     extend: {},
   },
-  plugins: []
+  plugins: [
+    require('@tailwindcss/forms'),
+  ]
 }

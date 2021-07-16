@@ -30,7 +30,7 @@
                             <li class="cursor-pointer hover:text-bookmark-red"> <a href="#reviews"> Reviews</a></li>
                             <li class="cursor-pointer hover:text-bookmark-red"> <a href="#faq">duvidas</a></li>
                             <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000"> 
-                            <a href="">fale conosco</a>
+                            <a href="#contato">fale conosco</a>
                             </button>
                         </ul>
 
@@ -45,13 +45,13 @@
                     <a href="#reviews" class="block py-2 px-4 text-sm hover:text-bookmark-red">Reviews</a>
                     <a href="#faq" class="block py-2 px-4 text-sm hover:text-bookmark-red">duvidas</a>
                     <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000"> 
-                        <a href="">fale conosco</a>
+                        <a href="#contato">fale conosco</a>
                     </div>
             </nav>
         </header>
 
         <!--hero-->
-        <section class="realtive" style="background-image:url('assests/background.png'); width: 100%; height:25%;">
+        <section class="realtive" style="background-image:url('assests/background.png'); width: 100%;">
             <div class="container flex flex-col-reverse justify-center lg:flex-row items-center gap-4 mt-1 lg:mt-50">
                 <!--content -->
                     <div class="flex flex-1 flex-col items-center">
@@ -103,33 +103,70 @@
 
 
      <!--reviews-->
-        <section class= "flex items-center flex-col " style=" width: 100%; height:auto;background-image: url(assests/bg4.svg) ; background-color:#EDED32; background-size:100%; background-repeat:repeat-y" id="reviews">
+        <section class= "flex items-center flex-col " style=" width: 100%; height:25%; height:auto;background-image: url(assests/bg4.svg) ; background-color:#EDED32; background-size:100%; background-repeat:repeat-y" id="reviews">
             <img src="assests/rv.svg" alt="relogio"style="width:500px;">
             <div class="container flex flex-col-reverse lg:flex-row items-center gap-0.1 mt-1 lg:mt-50">
                 
                 <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-105">
-                    <img src="assests/p1.svg" alt="relogio"style="width:250px;">
+                    <img src="assests/p1.svg" alt="relogio"style="width:200px;">
                     <div class=" items-center shadow-xl" style="padding:20px ;width:235px; height:auto; background-color: lemonchiffon;"> <h1>Vestibulum commodo, dui id malesuada euismod, libero augue ornare ante, sit amet dignissim est tortor vel ligula. Nunc tincidunt tellus est, at tincidunt ex semper a. Donec maximus, arcu sit amet maximus viverra, nisi arcu tincidunt nunc, eu ultricies libero nisi in quam. </h1></div>
                 </div>
 
                 <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-105">
-                    <img src="assests/p2.svg" alt="relogio"style="width:250px">
+                    <img src="assests/p2.svg" alt="relogio"style="width:200px">
                     <div class=" items-center shadow-xl" style="padding:20px ;width:235px; height:auto; background-color: lemonchiffon;"> <h1>Vestibulum commodo, dui id malesuada euismod, libero augue ornare ante, sit amet dignissim est tortor vel ligula. Nunc tincidunt tellus est, at tincidunt ex semper a. Donec maximus, arcu sit amet maximus viverra, nisi arcu tincidunt nunc, eu ultricies libero nisi in quam. </h1></div>
                 </div>
 
                 <div class="flex flex-1 flex-col items-center py-5 transform hover:scale-105">
-                    <img src="assests/p3.svg" alt="relogio"style="width:250px">
+                    <img src="assests/p3.svg" alt="relogio"style="width:200px">
                     <div class=" items-center shadow-xl" style="padding:20px ;width:235px; height:auto; background-color: lemonchiffon;"> <h1>Vestibulum commodo, dui id malesuada euismod, libero augue ornare ante, sit amet dignissim est tortor vel ligula. Nunc tincidunt tellus est, at tincidunt ex semper a. Donec maximus, arcu sit amet maximus viverra, nisi arcu tincidunt nunc, eu ultricies libero nisi in quam. </h1></div>
                 </div>
             </div>
         </section>
 
+    <!-- formulario-->
+        
+        <section id="contato" class="" style="height:auto; ; background-image: url(assests/bg5.svg); background-color: rgb(53, 53, 143); background-repeat: no-repeat; background-clip: content-box; background-position-y: bottom;">
+            <div class=" container md:h-1/2 flex flex-col justify-center min-h-screen text-xl items-center h-500px"> 
+                <div class="container flex flex-col justify-center items-center">
+                    <img src="assests/reference4.svg" alt="relogio"style="width:500px; width:125%; padding: 50px;">
+                </div>
+                <form action="" class="md:w-1/2 mx-auto flex flex-col justify-items-center mb-20">
+                    
+                  <div class="shadow-xl">
+                    <div class="flex items-center bg-bookmark-y  border-b border-bookmark-bc">
+                      <label for="name" class="w-20 text-right mr-8 text-bookmark-roxo">Nome</label>
+                      <input type="text" id="name" name="name" placeholder="Seu nome Completo" class=" bg-white bg-opacity-100 flex-1 p-4 pl-2 placeholder-bookmark-bc outline-none text-black">
+                    </div>
+
+                    <div class="shadow-xl">
+                        <div class="flex items-center bg-bookmark-y border-b border-bookmark-bc">
+                          <label for="email" class="w-20 text-right mr-8 text-bookmark-roxo">E-mail</label>
+                          <input type="text" id="email" name="email" placeholder="Informe seu e-mail favorito" class=" bg-white bg-opacity-100 flex-1 p-4 pl-2 placeholder-bookmark-bc outline-none text-black">
+                        </div>
+                    
+                    <div class="flex items-center bg-bookmark-y mb-10">
+                      <label for="duvida" class="w-20 text-right mr-8 text-bookmark-roxo">Duvida</label>
+                      <textarea type="textarea" id="duvidas" name="email" class=" form-textarea bg-white bg-opacity-100 flex-1 p-4 pl-2 outline-none text-black"></textarea>
+                    </div>
+
+                    
+                  </div>
+                  <button class="w-full bg-bookmark-red text-white rounded-md  py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000 shadow">Enviar</button>
+              
+                </form>
+              
+              </div> 
+
+        </section>
+
+
     <!-- FAQ-->
 
         <section class = "bg-bookmark-red py20" style="color: lemonchiffon;" id="faq">
-            <div class ="bg-bookmark-red sm:bg-transparent" style="background-image: url('assests/bg3.svg'); background-attachment: fixed; background-repeat: no-repeat;">
+            <div class ="  bg-bookmark-red sm:bg-transparent" style="background-image: url('assests/bg3.svg'); background-attachment: fixed; background-repeat: no-repeat;">
                 <!--headig-->
-                <div class ="sm:w-3/4 lg:5/12 mx-auto px-2 bg-bookmark-red" style="padding:50px; background-color: #FF5001;">
+                <div class =" mx-auto px-2 bg-bookmark-red" style="padding:50px; background-color: #FF5001;">
                     <h1 class="text-3xl text-center">
                         Perguntas Frequentes
                     </h1>
@@ -139,44 +176,44 @@
                 </div>
                 
                 <!-- faq itens-->
-                <section class = " py4">
-            
-                    <div class=" container mt-10.5 space-y-4 flex flex-1 flex-col items-center sm:w-3/4 lg:5/12 mx-auto" style="color: lemonchiffon; padding: 30px;">
-                
-                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Como funciona o pagamento dos anos?</summary>
-                        <p class="text-xs font-normal"style="margin-top: 10px;"> O pagamento é calculado pelo nivel de dificuldade para se conseguir a habilidade. Nos aceitamos apenas o tempo de vida restante que tem, quanto mais jovem você for, mais tempo poderá gastar. Atenção, deve tomar cuidado, pois se o seu destino é ter uma vida curta, talvez seu fim chegue antes da realização do desejo.</p>
-                    </details>
-
-                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Eu evelheço depois de pagar?</summary>
-                        <p class="text-xs font-normal"style="margin-top: 10px;"> O pagamento é feito com seu tempo de vida a partir do momento em que selamos o pacto, desse modo sim, tomamos parte da sua juventude. Caso você tenha 15 anos e compre um desejo com o preço de 15 anos, ao selar o pacto, automaticamente irá ter aparencia de um adulto de 30 anos.</p>
+                <section class = "container space-y-4 flex flex-col items-center sm:w-3/4 lg:5/12 mx-auto  bg-bookmark-red">
+                    <div class="md:translate-y-0 mt-15 md:mb-20 flex flex-col justify-center md:ml-118">
+                        <div class="mt-9.5 space-y-4 " style="color: lemonchiffon; padding: 30px;">
                     
-                    </details>
-                  
-                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Posso pagar para ser imortal?</summary>
-                        <p class="text-xs font-normal" style="margin-top: 10px;">Alguns clientes já desejaram isso, no entanto avisamos antes que o preço para conseguir esse desejo é em torno de 1096 anos, talvez você precise pedir ajuda para alguns amigos para realizar esse sonho.</p>
-                    </details>
-                  
-                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
+                        <details class="pb-5 border-b md:w-80 hover:cursor-pointer bg-bookmark-red ">
+                            <summary class=" items-center text-summary md:text-sm font-normal">Como funciona o pagamento dos anos?</summary>
+                            <p class="text-xs font-normal"style="margin-top: 10px;"> O pagamento é calculado pelo nivel de dificuldade para se conseguir a habilidade. Nos aceitamos apenas o tempo de vida restante que tem, quanto mais jovem você for, mais tempo poderá gastar. Atenção, deve tomar cuidado, pois se o seu destino é ter uma vida curta, talvez seu fim chegue antes da realização do desejo.</p>
+                        </details>
+
+                        <details class="pb-5 border-b md:w-80 hover:cursor-pointer bg-bookmark-red ">
+                            <summary class=" items-center text-summary md:text-sm font-normal">Eu evelheço depois de pagar?</summary>
+                            <p class="text-xs font-normal"style="margin-top: 10px;"> O pagamento é feito com seu tempo de vida a partir do momento em que selamos o pacto, desse modo sim, tomamos parte da sua juventude. Caso você tenha 15 anos e compre um desejo com o preço de 15 anos, ao selar o pacto, automaticamente irá ter aparencia de um adulto de 30 anos.</p>
                         
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Posso pedir devolução dos meus anos, caso não goste do desejo?</summary>
-                        <p class="text-xs font-normal"style="margin-top: 10px;">não.</p>
-                    </details>
-                  
-                    <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal">Eu posso morrer caso esteja destinado a morrer cedo e o meu pedido expire o tempo de vida?</summary>
-                        <p class="text-dark-grayish-blue text-xs font-normal"style="margin-top: 10px;">sim!</p>
+                        </details>
+                    
+                        <details class= "pb-5 border-b md:w-80 hover:cursor-pointer bg-bookmark-red ">
+                            <summary class=" items-center text-summary md:text-sm font-normal">Posso pagar para ser imortal?</summary>
+                            <p class="text-xs font-normal" style="margin-top: 10px;">Alguns clientes já desejaram isso, no entanto avisamos antes que o preço para conseguir esse desejo é em torno de 1096 anos, talvez você precise pedir ajuda para alguns amigos para realizar esse sonho.</p>
+                        </details>
+                    
+                        <details class="pb-5 border-b md:w-80 hover:cursor-pointer bg-bookmark-red ">
+                            
+                            <summary class=" items-center text-summary md:text-sm font-normal">Posso pedir devolução dos meus anos, caso não goste do desejo?</summary>
+                            <p class="text-xs font-normal"style="margin-top: 10px;">Não.</p>
+                        </details>
+                    
+                        <details class="pb-5 border-b md:w-80 hover:cursor-pointer bg-bookmark-red" >
+                            <summary class=" items-center text-summary md:text-sm font-normal">Eu posso morrer caso esteja destinado a morrer cedo e o meu pedido expire o tempo de vida?</summary>
+                            <p class="text-dark-grayish-blue text-xs font-normal"style="margin-top: 10px;">Sim!</p>
+                            
+                        </details>
                         
-                    </details>
-                      
-                      <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
-                        <summary class="flex justify-between items-center text-summary md:text-sm font-normal"> Oque vocês fazem com os anos?</summary>
-                        <p class="text-dark-grayish-blue text-xs font-normal"style="margin-top: 10px;">Nossa empresa já possui mais de 10 mil anos, já atendemos diversas pesssoas importantes para a humanidade. A garantia desse sucesso e vitalidade da empresa vem dos nossos preciosos clientes.</p>
-                        
-                      </details>
-                
+                        <details class="cursor-pointer pb-5 border-b md:w-80 hover:cursor-pointer">
+                            <summary class=" items-center text-summary md:text-sm font-normal"> Oque vocês fazem com os anos?</summary>
+                            <p class="text-dark-grayish-blue text-xs font-normal"style="margin-top: 10px;">Nossa empresa já possui mais de 10 mil anos, já atendemos diversas pesssoas importantes para a humanidade. A garantia desse sucesso e vitalidade da empresa vem dos nossos preciosos clientes.</p>
+                            
+                        </details>
+                        </div>
                     </div>
                 </section> 
             </div>
@@ -187,7 +224,11 @@
                 <div class="logo cursor-pointer" style="padding: 20px;">
                 <img src="assests/logo dream maker.svg" alt="logo" style="width: 220px;">
                 </div>
-                <ul class="hidden sm:flex flex-1 justify-end items-center gap-11 text-bookmark-roxo uppercase text-xs" style="padding:20px;">
+                <ul class="hidden sm:flex flex-1 justify-end items-center gap-11 text-bookmark-roxo uppercase text-xs" style="padding:20px; color:black;">
+                     <li>
+                        <h4> Site By: Débora Bartosiaki</h4>
+                    </li>
+           
                     <li class="cursor-pointer transform hover:scale-105">
                         <a href="https://github.com/hana-bananaa" target="_blank"><img src="https://image.flaticon.com/icons/png/512/733/733609.png" alt="git"style="width:30px"></a>
                     </li>
@@ -197,11 +238,8 @@
                     <li class="cursor-pointer transform hover:scale-105">
                         <a href="https://www.instagram.com/debra_barto/" target="_blank" ><img src="https://image.flaticon.com/icons/png/512/1384/1384015.png" alt="insta"style="width:30px"></a>
                     </li>
-                <div class="flex sm:hidden flex-1 justify-end" style="color:blueviolet">
-                    <i class=" text-2xl fas fa-bars"></i>
-                </div>
-            </nav>
-        </section>
+                </ul>  
+                </nav>
         <script src="script.js" async defer></script>
         
     </body>

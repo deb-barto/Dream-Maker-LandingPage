@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="906 -326.9 1891 754" style="enable-background:new 906 -326.9 1891 754;" xml:space="preserve">
+	 viewBox="640 20 1891 754" style="enable-background:new 640 20 1891 754;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{clip-path:url(#SVGID_2_);}
@@ -13,80 +13,88 @@
 </style>
 <g id="XMLID_61_">
 	<g>
-		<ellipse id="XMLID_62_" class="st0" cx="1093.5" cy="36" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_62_" class="st0" cx="828.6" cy="529.9" rx="33.3" ry="55"/>
 	</g>
 	<g>
-		<defs>
-			<ellipse id="SVGID_1_" cx="1093.5" cy="36" rx="33.3" ry="55"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<ellipse id="XMLID_63_" class="st1" cx="1111" cy="30.2" rx="20" ry="39.3"/>
+		<g>
+			<defs>
+				<ellipse id="SVGID_1_" cx="828.6" cy="529.9" rx="33.3" ry="55"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<ellipse id="XMLID_63_" class="st1" cx="846.1" cy="524.1" rx="20" ry="39.3"/>
+		</g>
 	</g>
 	<g>
-		<ellipse id="XMLID_1_" class="st2" cx="1093.5" cy="36" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_1_" class="st2" cx="828.6" cy="529.9" rx="33.3" ry="55"/>
 	</g>
 </g>
 <g id="XMLID_59_">
 	<g>
-		<ellipse id="XMLID_54_" class="st0" cx="1052.5" cy="36" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_54_" class="st0" cx="787.6" cy="529.9" rx="33.3" ry="55"/>
 	</g>
 	<g>
-		<defs>
-			<ellipse id="SVGID_3_" cx="1052.5" cy="36" rx="33.3" ry="55"/>
-		</defs>
-		<clipPath id="SVGID_4_">
-			<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
-		</clipPath>
-		<ellipse id="XMLID_58_" class="st3" cx="1070" cy="30.2" rx="20" ry="39.3"/>
+		<g>
+			<defs>
+				<ellipse id="SVGID_3_" cx="787.6" cy="529.9" rx="33.3" ry="55"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<ellipse id="XMLID_58_" class="st3" cx="805.1" cy="524.1" rx="20" ry="39.3"/>
+		</g>
 	</g>
 	<g>
-		<ellipse id="XMLID_2_" class="st2" cx="1052.5" cy="36" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_2_" class="st2" cx="787.6" cy="529.9" rx="33.3" ry="55"/>
 	</g>
 </g>
-<ellipse id="XMLID_55_" class="st0" cx="1080.5" cy="23.5" rx="3.5" ry="8.5"/>
-<ellipse id="XMLID_60_" class="st0" cx="1080.5" cy="42.7" rx="2.1" ry="5"/>
-<ellipse id="XMLID_64_" class="st0" cx="1121.5" cy="42.7" rx="2.1" ry="5"/>
-<ellipse id="XMLID_57_" class="st0" cx="1121.5" cy="23.5" rx="3.5" ry="8.5"/>
+<ellipse id="XMLID_55_" class="st0" cx="815.6" cy="517.4" rx="3.5" ry="8.5"/>
+<ellipse id="XMLID_60_" class="st0" cx="815.6" cy="536.6" rx="2.1" ry="5"/>
+<ellipse id="XMLID_64_" class="st0" cx="856.6" cy="536.6" rx="2.1" ry="5"/>
+<ellipse id="XMLID_57_" class="st0" cx="856.6" cy="517.4" rx="3.5" ry="8.5"/>
 <g id="XMLID_71_">
 	<g>
-		<ellipse id="XMLID_72_" class="st0" cx="2609.4" cy="32" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_72_" class="st0" cx="2344.4" cy="525.9" rx="33.3" ry="55"/>
 	</g>
 	<g>
-		<defs>
-			<ellipse id="SVGID_5_" cx="2609.4" cy="32" rx="33.3" ry="55"/>
-		</defs>
-		<clipPath id="SVGID_6_">
-			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
-		</clipPath>
-		<ellipse id="XMLID_73_" class="st4" cx="2591.9" cy="26.2" rx="20" ry="39.3"/>
+		<g>
+			<defs>
+				<ellipse id="SVGID_5_" cx="2344.4" cy="525.9" rx="33.3" ry="55"/>
+			</defs>
+			<clipPath id="SVGID_6_">
+				<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+			</clipPath>
+			<ellipse id="XMLID_73_" class="st4" cx="2326.9" cy="520.1" rx="20" ry="39.3"/>
+		</g>
 	</g>
 	<g>
-		<ellipse id="XMLID_3_" class="st2" cx="2609.4" cy="32" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_3_" class="st2" cx="2344.4" cy="525.9" rx="33.3" ry="55"/>
 	</g>
 </g>
 <g id="XMLID_68_">
 	<g>
-		<ellipse id="XMLID_69_" class="st0" cx="2650.4" cy="32" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_69_" class="st0" cx="2385.4" cy="525.9" rx="33.3" ry="55"/>
 	</g>
 	<g>
-		<defs>
-			<ellipse id="SVGID_7_" cx="2650.4" cy="32" rx="33.3" ry="55"/>
-		</defs>
-		<clipPath id="SVGID_8_">
-			<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
-		</clipPath>
-		<ellipse id="XMLID_70_" class="st5" cx="2632.9" cy="26.2" rx="20" ry="39.3"/>
+		<g>
+			<defs>
+				<ellipse id="SVGID_7_" cx="2385.4" cy="525.9" rx="33.3" ry="55"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+			</clipPath>
+			<ellipse id="XMLID_70_" class="st5" cx="2367.9" cy="520.1" rx="20" ry="39.3"/>
+		</g>
 	</g>
 	<g>
-		<ellipse id="XMLID_4_" class="st2" cx="2650.4" cy="32" rx="33.3" ry="55"/>
+		<ellipse id="XMLID_4_" class="st2" cx="2385.4" cy="525.9" rx="33.3" ry="55"/>
 	</g>
 </g>
-<ellipse id="XMLID_67_" class="st0" cx="2622.4" cy="19.5" rx="3.5" ry="8.5"/>
-<ellipse id="XMLID_66_" class="st0" cx="2622.4" cy="38.7" rx="2.1" ry="5"/>
-<ellipse id="XMLID_65_" class="st0" cx="2581.4" cy="38.7" rx="2.1" ry="5"/>
-<ellipse id="XMLID_56_" class="st0" cx="2581.4" cy="19.5" rx="3.5" ry="8.5"/>
-<line id="XMLID_76_" class="st6" x1="898.6" y1="-388.9" x2="1845.1" y2="-388.9"/>
-<line id="XMLID_78_" class="st6" x1="1845.1" y1="-388.9" x2="2797" y2="-388.9"/>
+<ellipse id="XMLID_67_" class="st0" cx="2357.4" cy="513.4" rx="3.5" ry="8.5"/>
+<ellipse id="XMLID_66_" class="st0" cx="2357.4" cy="532.6" rx="2.1" ry="5"/>
+<ellipse id="XMLID_65_" class="st0" cx="2316.4" cy="532.6" rx="2.1" ry="5"/>
+<ellipse id="XMLID_56_" class="st0" cx="2316.4" cy="513.4" rx="3.5" ry="8.5"/>
+<line id="XMLID_76_" class="st6" x1="640" y1="107" x2="1586.5" y2="107"/>
+<line id="XMLID_78_" class="st6" x1="1586.5" y1="107" x2="2538.4" y2="107"/>
 </svg>
