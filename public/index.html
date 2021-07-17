@@ -13,6 +13,25 @@
             html {
             scroll-behavior: smooth;
             }
+            
+            #msgError{
+            text-align: center;
+            color: #ff0000;
+            background-color: #ffbbbb;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+            }
+
+            #msgSuccess{
+            text-align: center;
+            color: #00bb00;
+            background-color: #bbffbe;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+}
+
         </style>
     </head>
     <body class= "font-Roboto" style="background-color: lemonchiffon;">
@@ -40,7 +59,7 @@
                     </div>
                 </div>
                  <!-- mobile menu -->
-                    <div class="mobile-menu hidden md:hidden flex flex-col lg:flex-row items-center gap-0.1 mt-1 lg:mt-50 text-bookmark-roxo uppercase text-xs shadow-inner" style="font-family:inherit"">
+                    <div class="mobile-menu md:hidden flex flex-col lg:flex-row items-center gap-0.1 mt-1 lg:mt-50 text-bookmark-roxo uppercase text-xs shadow-inner" style="font-family:inherit"">
                     <a href="#Sonhos" class="block py-2 px-4 text-sm hover:text-bookmark-red">Sonhos</a>
                     <a href="#reviews" class="block py-2 px-4 text-sm hover:text-bookmark-red">Reviews</a>
                     <a href="#faq" class="block py-2 px-4 text-sm hover:text-bookmark-red">duvidas</a>
@@ -129,30 +148,30 @@
         <section id="contato" class="" style="height:auto; ; background-image: url(assests/bg5.svg); background-color: rgb(53, 53, 143); background-repeat: no-repeat; background-clip: content-box; background-position-y: bottom;">
             <div class=" container md:h-1/2 flex flex-col justify-center min-h-screen text-xl items-center h-500px"> 
                 <div class="container flex flex-col justify-center items-center">
-                    <img src="assests/reference4.svg" alt="relogio"style="width:500px; width:125%; padding: 50px;">
+                    <img src="assests/reference4.svg" alt="relogio"style="width:600px">
                 </div>
                 <form action="" class="md:w-1/2 mx-auto flex flex-col justify-items-center mb-20">
                     
                   <div class="shadow-xl">
                     <div class="flex items-center bg-bookmark-y  border-b border-bookmark-bc">
-                      <label for="name" class="w-20 text-right mr-8 text-bookmark-roxo">Nome</label>
+                      <label  id= "labelnome" for="name" class="w-20 text-right mr-8 text-bookmark-roxo">Nome</label>
                       <input type="text" id="name" name="name" placeholder="Seu nome Completo" class=" bg-white bg-opacity-100 flex-1 p-4 pl-2 placeholder-bookmark-bc outline-none text-black">
                     </div>
 
                     <div class="shadow-xl">
                         <div class="flex items-center bg-bookmark-y border-b border-bookmark-bc">
-                          <label for="email" class="w-20 text-right mr-8 text-bookmark-roxo">E-mail</label>
+                          <label for="email" id= "labelemail" class="w-20 text-right mr-8 text-bookmark-roxo">E-mail</label>
                           <input type="text" id="email" name="email" placeholder="Informe seu e-mail favorito" class=" bg-white bg-opacity-100 flex-1 p-4 pl-2 placeholder-bookmark-bc outline-none text-black">
                         </div>
                     
                     <div class="flex items-center bg-bookmark-y mb-10">
-                      <label for="duvida" class="w-20 text-right mr-8 text-bookmark-roxo">Duvida</label>
-                      <textarea type="textarea" id="duvidas" name="email" class=" form-textarea bg-white bg-opacity-100 flex-1 p-4 pl-2 outline-none text-black"></textarea>
+                      <label for="duvida" id= "labelduvida" class="w-20 text-right mr-8 text-bookmark-roxo">Duvida</label>
+                      <textarea type="textarea" id="duvida" name="email" class=" form-textarea bg-white bg-opacity-100 flex-1 p-4 pl-2 outline-none text-black"></textarea>
                     </div>
 
                     
                   </div>
-                  <button class="w-full bg-bookmark-red text-white rounded-md  py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000 shadow">Enviar</button>
+                  <button onclick='enviar()' class="w-full bg-bookmark-red text-white rounded-md  py-3 uppercase hover:bg-bookmark-y hover:text-black transition ease-out duration-1000 shadow">Enviar</button>
               
                 </form>
               
